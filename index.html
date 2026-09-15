@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Өлгий–Вьетнам аялал: Фукуок болон Вьетнамын аяллыг таны хүсэл, төсөвт тохируулан зохион байгуулна." />
+  <meta name="description" content="Өлгий–Вьетнам аялал: Фукуок руу охидын аялал, гэр бүл болон хувийн аяллыг таны хүсэл, төсөвт тохируулан зохион байгуулна." />
   <title>Өлгий–Вьетнам Аялал</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,18 +11,22 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="page-glow glow-a"></div>
+  <div class="page-glow glow-b"></div>
+
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Өлгий Вьетнам нүүр хуудас">
       <span class="brand-mark">UV</span>
-      <span><strong>Өлгий–Вьетнам</strong><small>Аялал & амралт</small></span>
+      <span><strong>Өлгий–Вьетнам</strong><small>Vietnam Travel Boutique</small></span>
     </a>
+
     <nav class="desktop-nav" aria-label="Үндсэн цэс">
-      <a href="#tours" data-mn="Аяллууд" data-kz="Саяхаттар">Аяллууд</a>
       <a href="#girls-trip" data-mn="Охидын аялал" data-kz="Қыздар саяхаты">Охидын аялал</a>
-      <a href="#why" data-mn="Яагаад бид?" data-kz="Неге біз?">Яагаад бид?</a>
-      <a href="#custom" data-mn="Захиалгат аялал" data-kz="Жеке саяхат">Захиалгат аялал</a>
+      <a href="#highlights" data-mn="Онцлох зүйлс" data-kz="Ерекшеліктер">Онцлох зүйлс</a>
+      <a href="#journey" data-mn="Хөтөлбөр" data-kz="Бағдарлама">Хөтөлбөр</a>
       <a href="#contact" data-mn="Холбоо барих" data-kz="Байланыс">Холбоо барих</a>
     </nav>
+
     <div class="header-actions">
       <button class="lang-btn active" data-lang="mn">MN</button>
       <button class="lang-btn" data-lang="kz">KZ</button>
@@ -31,162 +35,241 @@
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-glow glow-one"></div>
-      <div class="hero-glow glow-two"></div>
-      <div class="hero-content container">
+    <section class="hero hero-luxe">
+      <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow" data-mn="ВЬЕТНАМ • ФУКУОК • ХУВИЙН АЯЛАЛ" data-kz="ВЬЕТНАМ • ФУКУОК • ЖЕКЕ САЯХАТ">ВЬЕТНАМ • ФУКУОК • ХУВИЙН АЯЛАЛ</span>
-          <h1 data-mn="Өвлийн хүйтнээс халуун орны амралт руу." data-kz="Қыстың суығынан тропикалық демалысқа.">Өвлийн хүйтнээс халуун орны амралт руу.</h1>
-          <p data-mn="Гэр бүл, найз нөхөд, ахмад аялагчдад зориулсан ая тухтай Вьетнамын аяллыг таны хүсэл, хугацаа, төсөвт тохируулан зохион байгуулна." data-kz="Отбасыңызбен, достарыңызбен немесе үлкен кісілермен жайлы саяхаттаңыз. Бағдарламаны қалауыңызға, уақытыңызға және бюджетіңізге сай әзірлейміз.">Гэр бүл, найз нөхөд, ахмад аялагчдад зориулсан ая тухтай Вьетнамын аяллыг таны хүсэл, хугацаа, төсөвт тохируулан зохион байгуулна.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#custom" data-mn="Аяллаа төлөвлөх" data-kz="Саяхатты жоспарлау">Аяллаа төлөвлөх</a>
-            <a class="btn btn-secondary" href="#tours" data-mn="Хөтөлбөр харах" data-kz="Бағдарламаны көру">Хөтөлбөр харах</a>
+          <span class="eyebrow" data-mn="ВЬЕТНАМ • ФУКУОК • ЭМЭГТЭЙЧҮҮДИЙН АЯЛАЛ" data-kz="ВЬЕТНАМ • ФУКУОК • ҚЫЗДАР САЯХАТЫ">ВЬЕТНАМ • ФУКУОК • ЭМЭГТЭЙЧҮҮДИЙН АЯЛАЛ</span>
+          <h1 data-mn="Фукуокт үзэсгэлэнтэй, тайван, мартагдашгүй амралтаа эхлүүлээрэй." data-kz="Фукуокта әдемі, жайлы және есте қаларлық демалысқа шығыңыз.">Фукуокт үзэсгэлэнтэй, тайван, мартагдашгүй амралтаа эхлүүлээрэй.</h1>
+          <p class="hero-lead" data-mn="Эмэгтэй аялагчдад зориулсан илүү загварлаг, тав тухтай, зураг авахад гоё Фукуокын аяллыг бид жижиг группээр зохион байгуулна. Grand World, Sunset Town, арал хоорондын завины аялал, SPA, шоппинг, далайн эргийн амралтыг нэг дор мэдрээрэй." data-kz="Әйел саяхатшыларға арналған стильді, жайлы және фотоға әдемі Фукуок сапарын шағын топпен ұйымдастырамыз. Grand World, Sunset Town, аралдарға қайықпен серуен, SPA, шопинг және теңіз жағасындағы демалыс — бәрі бір сапарда.">Эмэгтэй аялагчдад зориулсан илүү загварлаг, тав тухтай, зураг авахад гоё Фукуокын аяллыг бид жижиг группээр зохион байгуулна. Grand World, Sunset Town, арал хоорондын завины аялал, SPA, шоппинг, далайн эргийн амралтыг нэг дор мэдрээрэй.</p>
+
+          <div class="hero-actions-row">
+            <a class="btn btn-primary" href="#girls-trip" data-mn="Охидын аялал үзэх" data-kz="Қыздар сапарын көру">Охидын аялал үзэх</a>
+            <a class="btn btn-secondary" href="#contact" data-mn="Захиалах / Холбогдох" data-kz="Тіркелу / Хабарласу">Захиалах / Холбогдох</a>
           </div>
-          <div class="trust-row">
-            <span>✓ <span data-mn="Тосож авах" data-kz="Күтіп алу">Тосож авах</span></span>
-            <span>✓ <span data-mn="Зочид буудал" data-kz="Қонақүй">Зочид буудал</span></span>
-            <span>✓ <span data-mn="Хувийн маршрут" data-kz="Жеке маршрут">Хувийн маршрут</span></span>
+
+          <div class="pill-row">
+            <span class="soft-pill">👭 <span data-mn="6 хүний жижиг групп" data-kz="6 қыздан тұратын шағын топ">6 хүний жижиг групп</span></span>
+            <span class="soft-pill">📸 <span data-mn="Photo spots" data-kz="Фотоға әдемі орындар">Photo spots</span></span>
+            <span class="soft-pill">💆‍♀️ <span data-mn="SPA & relax" data-kz="SPA & relax">SPA & relax</span></span>
+          </div>
+
+          <div class="quick-facts">
+            <div class="fact-card"><strong>2026</strong><span data-mn="11–12 сар" data-kz="қараша–желтоқсан">11–12 сар</span></div>
+            <div class="fact-card"><strong>7D / 6N</strong><span data-mn="Фукуок амралт" data-kz="Фукуок демалысы">Фукуок амралт</span></div>
+            <div class="fact-card"><strong>3 990 000₮</strong><span data-mn="1 хүнээс" data-kz="1 адамға">1 хүнээс</span></div>
           </div>
         </div>
 
-        <div class="hero-card" aria-label="Аяллын гол мэдээлэл">
-          <div class="passport-card">
-            <div class="passport-top"><span>VIETNAM</span><span>✦</span></div>
-            <div class="sun"></div>
-            <div class="island-lines"></div>
-            <div class="passport-bottom">
-              <strong data-mn="Фукуок арал" data-kz="Фукуок аралы">Фукуок арал</strong>
-              <span data-mn="Дулаан • Тайван • Дурсамжтай" data-kz="Жылы • Жайлы • Есте қаларлық">Дулаан • Тайван • Дурсамжтай</span>
+        <div class="hero-visual">
+          <div class="visual-card main-visual">
+            <div class="visual-badge">Girls Trip 2026</div>
+            <div class="visual-title">
+              <span>PHÚ QUỐC</span>
+              <h2 data-mn="Тропикийн эмэгтэйлэг амралт" data-kz="Тропикалық қыздар демалысы">Тропикийн эмэгтэйлэг амралт</h2>
+            </div>
+            <div class="visual-tags">
+              <span>Grand World</span>
+              <span>Sunset Town</span>
+              <span>Hon Thom</span>
+              <span>Island tour</span>
+            </div>
+            <div class="mini-gallery">
+              <div class="mini-card mini-one">
+                <strong data-mn="Алтан нар жаргалт орой" data-kz="Күн батуы мен жылы кеш">Алтан нар жаргалт орой</strong>
+                <small data-mn="Sunset Town" data-kz="Sunset Town">Sunset Town</small>
+              </div>
+              <div class="mini-card mini-two">
+                <strong data-mn="Европ загварын гудамж" data-kz="Еуропа стиліндегі көшелер">Европ загварын гудамж</strong>
+                <small>Grand World</small>
+              </div>
+              <div class="mini-card mini-three">
+                <strong data-mn="Тэнгис, SPA, дурсамж" data-kz="Теңіз, SPA, естелік">Тэнгис, SPA, дурсамж</strong>
+                <small data-mn="Relax mood" data-kz="Relax mood">Relax mood</small>
+              </div>
             </div>
           </div>
-          <div class="mini-stats">
-            <div><strong>7</strong><span data-mn="хоног" data-kz="күн">хоног</span></div>
-            <div><strong>6</strong><span data-mn="шөнө" data-kz="түн">шөнө</span></div>
-            <div><strong>100%</strong><span data-mn="танд тохирно" data-kz="сізге сай">танд тохирно</span></div>
+        </div>
+      </div>
+
+      <div class="container trust-strip">
+        <div><strong data-mn="Тосож авах" data-kz="Күтіп алу">Тосож авах</strong><span data-mn="Онгоцны буудлаас" data-kz="Әуежайдан">Онгоцны буудлаас</span></div>
+        <div><strong data-mn="Казах хэлтэй гид" data-kz="Қазақ тілді гид">Казах хэлтэй гид</strong><span data-mn="Аяллын турш" data-kz="Сапар бойы">Аяллын турш</span></div>
+        <div><strong data-mn="Тав тухтай буудал" data-kz="Жайлы қонақүй">Тав тухтай буудал</strong><span data-mn="Далайн эрэгтэй ойр" data-kz="Теңіз жағасына жақын">Далайн эрэгтэй ойр</span></div>
+        <div><strong data-mn="Жижиг групп" data-kz="Шағын топ">Жижиг групп</strong><span data-mn="Илүү аюулгүй, тухтай" data-kz="Жайлы әрі қауіпсіз">Илүү аюулгүй, тухтай</span></div>
+      </div>
+    </section>
+
+    <section id="girls-trip" class="section">
+      <div class="container feature-shell">
+        <div class="section-heading center">
+          <span class="eyebrow" data-mn="ОНЦЛОХ ХӨТӨЛБӨР" data-kz="ТАҢДАУЛЫ БАҒДАРЛАМА">ОНЦЛОХ ХӨТӨЛБӨР</span>
+          <h2 data-mn="🌴 Охидоо, Фукуок руу хамт аялцгаая! 🇻🇳✨" data-kz="🌴 Қыздар, Фукуокқа бірге саяхаттайық! 🇻🇳✨">🌴 Охидоо, Фукуок руу хамт аялцгаая! 🇻🇳✨</h2>
+          <p data-mn="Grand World-ийн гоёмсог гудамжаар алхаж, далайн эрэг дээр нар жаргахыг харж, халуун орны арал дээр мартагдашгүй амралт өнгөрөөхөд бэлэн үү?" data-kz="Grand World-тың әсем көшелерімен серуендеп, теңіз жағасында күннің батуын тамашалап, тропикалық аралдарда ұмытылмас демалыс өткізуге дайынсыз ба?">Grand World-ийн гоёмсог гудамжаар алхаж, далайн эрэг дээр нар жаргахыг харж, халуун орны арал дээр мартагдашгүй амралт өнгөрөөхөд бэлэн үү?</p>
+        </div>
+
+        <div class="girls-grid">
+          <div class="girls-panel soft-panel">
+            <h3 data-mn="Аялалд багтсан зүйлс" data-kz="Сапарға кіретіндер">Аялалд багтсан зүйлс</h3>
+            <div class="list-grid">
+              <div class="list-item"><span>💃</span><p data-mn="Зөвхөн охидод зориулсан аялал" data-kz="Тек қыздарға арналған саяхат">Зөвхөн охидод зориулсан аялал</p></div>
+              <div class="list-item"><span>🏨</span><p data-mn="Далайн эргийн тухтай зочид буудал" data-kz="Теңіз жағалауындағы жайлы қонақүй">Далайн эргийн тухтай зочид буудал</p></div>
+              <div class="list-item"><span>🏖️</span><p data-mn="Үзэсгэлэнт наран шарлагын газрууд" data-kz="Әсем жағажайлар">Үзэсгэлэнт наран шарлагын газрууд</p></div>
+              <div class="list-item"><span>📸</span><p data-mn="Grand World болон Sunset Town" data-kz="Grand World және Sunset Town">Grand World болон Sunset Town</p></div>
+              <div class="list-item"><span>🚤</span><p data-mn="3 арал руу завины аялал" data-kz="Үш аралға қайықпен саяхат">3 арал руу завины аялал</p></div>
+              <div class="list-item"><span>🚡</span><p data-mn="Hon Thom кабель зам" data-kz="Hon Thom аспалы жолы">Hon Thom кабель зам</p></div>
+              <div class="list-item"><span>💆‍♀️</span><p data-mn="SPA, массаж, тайван амралт" data-kz="SPA, массаж және тыныш демалыс">SPA, массаж, тайван амралт</p></div>
+              <div class="list-item"><span>🛍️</span><p data-mn="Шоппинг ба шөнийн зах" data-kz="Шопинг және түнгі базар">Шоппинг ба шөнийн зах</p></div>
+              <div class="list-item"><span>🧑‍💼</span><p data-mn="Казах хэлтэй хамт явах гид" data-kz="Сапар бойы бірге жүретін қазақ тілді гид">Казах хэлтэй хамт явах гид</p></div>
+            </div>
+          </div>
+
+          <div class="girls-panel price-panel">
+            <div class="price-top">
+              <span class="eyebrow small" data-mn="ЖИЖИГ ГРУПП • LIMITED" data-kz="ШАҒЫН ТОП • LIMITED">ЖИЖИГ ГРУПП • LIMITED</span>
+              <h3 data-mn="Аяллын гол мэдээлэл" data-kz="Сапардың негізгі ақпараты">Аяллын гол мэдээлэл</h3>
+            </div>
+            <div class="price-box">
+              <small data-mn="Нэг хүнд" data-kz="Бір адамға">Нэг хүнд</small>
+              <strong>3 990 000₮</strong>
+              <span data-mn="-с эхлэн" data-kz="-ден бастап">-с эхлэн</span>
+            </div>
+            <div class="detail-rows">
+              <div class="detail-row"><span>📅</span><p data-mn="2026 оны 11–12 сар" data-kz="2026 жылғы қараша–желтоқсан">2026 оны 11–12 сар</p></div>
+              <div class="detail-row"><span>🕐</span><p data-mn="7 өдөр / 6 шөнө" data-kz="7 күн / 6 түн">7 өдөр / 6 шөнө</p></div>
+              <div class="detail-row"><span>👭</span><p data-mn="6 хүний жижиг групп" data-kz="Бар болғаны 6 қыздан тұратын шағын топ">6 хүний жижиг групп</p></div>
+              <div class="detail-row"><span>📩</span><p data-mn="Орон тоо хязгаартай — урьдчилж бүртгүүлээрэй" data-kz="Орын саны шектеулі — алдын ала тіркеліңіз">Орон тоо хязгаартай — урьдчилж бүртгүүлээрэй</p></div>
+            </div>
+            <a class="btn btn-primary full" href="https://www.facebook.com/profile.php?id=61594274105420" target="_blank" rel="noopener">Facebook Messenger</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="tours" class="section container">
-      <div class="section-heading">
-        <span class="eyebrow" data-mn="ОНЦЛОХ АЯЛАЛ" data-kz="ТАҢДАУЛЫ САЯХАТ">ОНЦЛОХ АЯЛАЛ</span>
-        <h2 data-mn="Амарч, аялж, өөртөө цаг гаргаарай" data-kz="Демалып, саяхаттап, өзіңізге уақыт бөліңіз">Амарч, аялж, өөртөө цаг гаргаарай</h2>
-        <p data-mn="Яаралгүй хөтөлбөр, тухтай байр, зохион байгуулалттай шилжилт — аяллын гол зүйлсийг нэг дор." data-kz="Асықпайтын бағдарлама, жайлы қонақүй және ұйымдастырылған трансфер — бәрі бір саяхатта.">Яаралгүй хөтөлбөр, тухтай байр, зохион байгуулалттай шилжилт — аяллын гол зүйлсийг нэг дор.</p>
-      </div>
-      <div class="tour-grid">
-        <article class="tour-card featured">
-          <div class="tour-art art-beach"><span>PHÚ QUỐC</span></div>
-          <div class="tour-body">
-            <div class="tag-row"><span class="tag" data-mn="Хамгийн эрэлттэй" data-kz="Ең танымал">Хамгийн эрэлттэй</span><span>7D / 6N</span></div>
-            <h3 data-mn="Фукуок арал — далайн эргийн амралт" data-kz="Фукуок аралы — теңіз жағасындағы демалыс">Фукуок арал — далайн эргийн амралт</h3>
-            <p data-mn="Далайн эрэг, амралтын өдөр, үзвэр, зочид буудал, тосолт ба үдэлттэй хосолсон тухтай хөтөлбөр." data-kz="Теңіз жағасы, демалыс күндері, көрікті орындар, қонақүй, күтіп алу және шығарып салу қамтылған жайлы бағдарлама.">Далайн эрэг, амралтын өдөр, үзвэр, зочид буудал, тосолт ба үдэлттэй хосолсон тухтай хөтөлбөр.</p>
-            <a href="#custom" class="text-link" data-mn="Надад тохируулж авах →" data-kz="Маған бейімдеу →">Надад тохируулж авах →</a>
-          </div>
-        </article>
-        <article class="tour-card">
-          <div class="tour-art art-city"><span>HO CHI MINH</span></div>
-          <div class="tour-body">
-            <div class="tag-row"><span class="tag muted" data-mn="Хот + амралт" data-kz="Қала + демалыс">Хот + амралт</span></div>
-            <h3 data-mn="Хошимин + Фукуок" data-kz="Хошимин + Фукуок">Хошимин + Фукуок</h3>
-            <p data-mn="Хотын өнгө төрх, шоппинг, хоолны соёлыг далайн эргийн амралттай хослуулсан маршрут." data-kz="Қала атмосферасын, шопинг пен ас мәдениетін теңіз жағасындағы демалыспен біріктіретін маршрут.">Хотын өнгө төрх, шоппинг, хоолны соёлыг далайн эргийн амралттай хослуулсан маршрут.</p>
-            <a href="#custom" class="text-link" data-mn="Маршрут захиалах →" data-kz="Маршрутқа тапсырыс беру →">Маршрут захиалах →</a>
-          </div>
-        </article>
-        <article class="tour-card">
-          <div class="tour-art art-family"><span>FAMILY</span></div>
-          <div class="tour-body">
-            <div class="tag-row"><span class="tag muted" data-mn="Гэр бүлд" data-kz="Отбасына">Гэр бүлд</span></div>
-            <h3 data-mn="Хүүхэдтэй гэр бүлийн аялал" data-kz="Балалы отбасылық саяхат">Хүүхэдтэй гэр бүлийн аялал</h3>
-            <p data-mn="Хүүхдэд тохирсон хэмнэл, чөлөөт цаг, сонирхолтой үзвэр бүхий гэр бүлийн уян хатан төлөвлөгөө." data-kz="Балаларға қолайлы қарқын, бос уақыт және қызықты орындармен жасалған икемді отбасылық бағдарлама.">Хүүхдэд тохирсон хэмнэл, чөлөөт цаг, сонирхолтой үзвэр бүхий гэр бүлийн уян хатан төлөвлөгөө.</p>
-            <a href="#custom" class="text-link" data-mn="Гэр бүлийн аялал төлөвлөх →" data-kz="Отбасылық саяхатты жоспарлау →">Гэр бүлийн аялал төлөвлөх →</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="girls-trip" class="section girls-trip-section">
+    <section id="highlights" class="section alt-section">
       <div class="container">
-        <div class="girls-trip-card">
-          <div class="girls-trip-copy">
-            <span class="eyebrow light" data-mn="ЗӨВХӨН ОХИДОД • ФУКУОК 2026" data-kz="ТЕК ҚЫЗДАРҒА • ФУКУОК 2026">ЗӨВХӨН ОХИДОД • ФУКУОК 2026</span>
-            <h2 data-mn="🌴 Охидоо, Фукуок руу хамт аялцгаая! 🇻🇳✨" data-kz="🌴 Қыздар, Фукуокқа бірге саяхаттайық! 🇻🇳✨">🌴 Охидоо, Фукуок руу хамт аялцгаая! 🇻🇳✨</h2>
-            <p data-mn="Grand World-ийн үзэсгэлэнт гудамжаар алхаж, далайн эрэг дээр нар жаргахыг харж, халуун орны арлуудад мартагдашгүй амралт өнгөрүүлэхэд бэлэн үү?" data-kz="Grand World-тың әсем көшелерімен серуендеп, теңіз жағасында күннің батуын тамашалап, тропикалық аралдарда ұмытылмас демалыс өткізуге дайынсыз ба?">Grand World-ийн үзэсгэлэнт гудамжаар алхаж, далайн эрэг дээр нар жаргахыг харж, халуун орны арлуудад мартагдашгүй амралт өнгөрүүлэхэд бэлэн үү?</p>
+        <div class="section-heading center">
+          <span class="eyebrow" data-mn="ЯАГААД ЭМЭГТЭЙЧҮҮДЭД ТААЛАГДДАГ ВЭ?" data-kz="НЕЛІКТЕН ӘЙЕЛДЕР ҰНАТАДЫ?">ЯАГААД ЭМЭГТЭЙЧҮҮДЭД ТААЛАГДДАГ ВЭ?</span>
+          <h2 data-mn="Эмэгтэй аялагчдын анхаарлыг хамгийн их татах 4 онцлог" data-kz="Әйел саяхатшыларды бірден қызықтыратын 4 ерекшелік">Эмэгтэй аялагчдын анхаарлыг хамгийн их татах 4 онцлог</h2>
+        </div>
 
-            <div class="girls-trip-meta">
-              <div><span>📅</span><strong data-mn="2026 оны 11–12 сар" data-kz="2026 жылғы қараша–желтоқсан">2026 оны 11–12 сар</strong></div>
-              <div><span>🕐</span><strong data-mn="7 өдөр / 6 шөнө" data-kz="7 күн / 6 түн">7 өдөр / 6 шөнө</strong></div>
-              <div><span>👭</span><strong data-mn="Зөвхөн 6 охин" data-kz="Бар болғаны 6 қыз">Зөвхөн 6 охин</strong></div>
-            </div>
+        <div class="highlight-grid">
+          <article class="highlight-card">
+            <div class="icon-wrap">📸</div>
+            <h3 data-mn="Фото авахад хамгийн гоё цэгүүд" data-kz="Фотоға ең әдемі орындар">Фото авахад хамгийн гоё цэгүүд</h3>
+            <p data-mn="Grand World-ийн өнгөлөг гудамж, Sunset Town-ийн романтик орчин, далайн эргийн нар жаргалт агшин — таны feed-д төгс зохино." data-kz="Grand World-тың түрлі-түсті көшелері, Sunset Town-ның романтикалық атмосферасы және жағажайдағы күн батуы — фотоға өте әдемі.">Grand World-ийн өнгөлөг гудамж, Sunset Town-ийн романтик орчин, далайн эргийн нар жаргалт агшин — таны feed-д төгс зохино.</p>
+          </article>
+          <article class="highlight-card">
+            <div class="icon-wrap">🌊</div>
+            <h3 data-mn="Тайван мөртлөө сонирхолтой" data-kz="Жайлы әрі қызықты">Тайван мөртлөө сонирхолтой</h3>
+            <p data-mn="Ядраахгүй хөтөлбөртэй ч аяллын гол цэгүүдээ алдахгүй. Далайн эрэг, арал хоорондын аялал, кабель зам, шоппинг бүгд тэнцвэртэй." data-kz="Бағдарлама шаршатпайды, бірақ ең әдемі жерлердің бәрін қамтиды: жағажай, арал туры, кабель жолы және шопинг.">Ядраахгүй хөтөлбөртэй ч аяллын гол цэгүүдээ алдахгүй. Далайн эрэг, арал хоорондын аялал, кабель зам, шоппинг бүгд тэнцвэртэй.</p>
+          </article>
+          <article class="highlight-card">
+            <div class="icon-wrap">💆‍♀️</div>
+            <h3 data-mn="Өөртөө анхаарах амралт" data-kz="Өзіңізге көңіл бөлетін демалыс">Өөртөө анхаарах амралт</h3>
+            <p data-mn="SPA, массаж, удаан өглөө, ая тухтай буудал, далайн дулаан уур амьсгал — бие, сэтгэлээ нэгэн зэрэг амраана." data-kz="SPA, массаж, жайлы қонақүй, асықпайтын таң және тропикалық атмосфера — дене мен жанға бірдей демалыс береді.">SPA, массаж, удаан өглөө, ая тухтай буудал, далайн дулаан уур амьсгал — бие, сэтгэлээ нэгэн зэрэг амраана.</p>
+          </article>
+          <article class="highlight-card">
+            <div class="icon-wrap">🩷</div>
+            <h3 data-mn="Аюулгүй, тухтай, жижиг групп" data-kz="Қауіпсіз, жайлы, шағын топ">Аюулгүй, тухтай, жижиг групп</h3>
+            <p data-mn="6 хүний жижиг группээр явах тул илүү анхааралтай, тухтай, бие биедээ дотно аяллын уур амьсгал бүрдэнэ." data-kz="6 адамнан тұратын шағын топ сапарды жайлы, қауіпсіз және бір-біріне жақын атмосферада өткізеді.">6 хүний жижиг группээр явах тул илүү анхааралтай, тухтай, бие биедээ дотно аяллын уур амьсгал бүрдэнэ.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-            <div class="girls-trip-price">
-              <span data-mn="Нэг хүний үнэ" data-kz="Бір адамға">Нэг хүний үнэ</span>
-              <strong>3 990 000₮-<span data-mn="с эхлэн" data-kz="ден бастап">с эхлэн</span></strong>
-            </div>
+    <section id="journey" class="section">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow" data-mn="ЖИШЭЭ ХӨТӨЛБӨР" data-kz="ҮЛГІ БАҒДАРЛАМА">ЖИШЭЭ ХӨТӨЛБӨР</span>
+          <h2 data-mn="7 өдөр / 6 шөнийн аяллын уур амьсгал" data-kz="7 күн / 6 түн сапарының атмосферасы">7 өдөр / 6 шөнийн аяллын уур амьсгал</h2>
+        </div>
 
-            <p class="girls-trip-ending" data-mn="Найзуудаа цуглуулаад шинэ дурсамж бүтээх аялалдаа хамт гарцгаая! 🌺 Орон тоо хязгаартай." data-kz="Құрбыларыңызды жинап, жаңа естеліктер сыйлайтын саяхатқа бірге аттанайық! 🌺 Орын саны шектеулі.">Найзуудаа цуглуулаад шинэ дурсамж бүтээх аялалдаа хамт гарцгаая! 🌺 Орон тоо хязгаартай.</p>
-            <a class="btn btn-white girls-trip-btn" href="#contact" data-mn="📩 Дэлгэрэнгүй мэдээлэл авах" data-kz="📩 Толық ақпарат пен тіркелу">📩 Дэлгэрэнгүй мэдээлэл авах</a>
+        <div class="journey-grid">
+          <div class="journey-step">
+            <span>01</span>
+            <h3 data-mn="Ирэх өдөр" data-kz="Келу күні">Ирэх өдөр</h3>
+            <p data-mn="Онгоцны буудлаас тосож аваад буудалдаа оруулна. Орой нь хөнгөн амралт, далайн агаартай анхны танилцана." data-kz="Әуежайдан күтіп алып, қонақүйге орналастырамыз. Кешке жеңіл демалыс пен арал атмосферасымен танысу.">Онгоцны буудлаас тосож аваад буудалдаа оруулна. Орой нь хөнгөн амралт, далайн агаартай анхны танилцана.</p>
           </div>
-
-          <div class="girls-trip-features">
-            <div class="girls-feature"><span>💃</span><p data-mn="Зөвхөн охидод зориулсан аялал" data-kz="Тек қыздарға арналған саяхат">Зөвхөн охидод зориулсан аялал</p></div>
-            <div class="girls-feature"><span>🏨</span><p data-mn="Далайн эргийн тухтай зочид буудал" data-kz="Теңіз жағалауындағы жайлы қонақүй">Далайн эргийн тухтай зочид буудал</p></div>
-            <div class="girls-feature"><span>🏖️</span><p data-mn="Үзэсгэлэнт наран шарлагын газрууд" data-kz="Әсем жағажайлар">Үзэсгэлэнт наран шарлагын газрууд</p></div>
-            <div class="girls-feature"><span>📸</span><p data-mn="Grand World болон Sunset Town" data-kz="Grand World және Sunset Town">Grand World болон Sunset Town</p></div>
-            <div class="girls-feature"><span>🚤</span><p data-mn="3 арал руу завиар аялах" data-kz="Үш аралға қайықпен саяхат">3 арал руу завиар аялах</p></div>
-            <div class="girls-feature"><span>🚡</span><p data-mn="Hon Thom кабель зам" data-kz="Hon Thom аспалы жолы">Hon Thom кабель зам</p></div>
-            <div class="girls-feature"><span>💆‍♀️</span><p data-mn="SPA, массаж ба тайван амралт" data-kz="SPA, массаж және тыныш демалыс">SPA, массаж ба тайван амралт</p></div>
-            <div class="girls-feature"><span>🛍️</span><p data-mn="Шоппинг болон шөнийн зах" data-kz="Шопинг және түнгі базар">Шоппинг болон шөнийн зах</p></div>
-            <div class="girls-feature guide"><span>🧑‍💼</span><p data-mn="Аяллын турш хамт явах казах хэлтэй хөтөч" data-kz="Сапар бойы бірге жүретін қазақ тілді гид">Аяллын турш хамт явах казах хэлтэй хөтөч</p></div>
+          <div class="journey-step">
+            <span>02</span>
+            <h3 data-mn="Наран шарлагын амралт" data-kz="Жағажай демалысы">Наран шарлагын амралт</h3>
+            <p data-mn="Гоёмсог далайн эрэг, зураг авах цаг, чөлөөт амралт, кафе болон зөөлөн өдөр." data-kz="Әсем жағажай, фотоға түсу уақыты, еркін демалыс және жайлы күн.">Гоёмсог далайн эрэг, зураг авах цаг, чөлөөт амралт, кафе болон зөөлөн өдөр.</p>
+          </div>
+          <div class="journey-step">
+            <span>03</span>
+            <h3 data-mn="3 арал руу завины аялал" data-kz="3 аралға қайықпен саяхат">3 арал руу завины аялал</h3>
+            <p data-mn="Цэнхэр ус, арал хоорондын аялал, усан дээрх дурсамжтай өдрийг мэдэрнэ." data-kz="Көгілдір теңіз, аралдарға серуен және судың үстіндегі әсерлі күн.">Цэнхэр ус, арал хоорондын аялал, усан дээрх дурсамжтай өдрийг мэдэрнэ.</p>
+          </div>
+          <div class="journey-step">
+            <span>04</span>
+            <h3 data-mn="Grand World & Sunset Town" data-kz="Grand World & Sunset Town">Grand World & Sunset Town</h3>
+            <p data-mn="Өнгөлөг гудамж, үзэсгэлэнт архитектур, оройн нар жаргалт агшин болон романтик уур амьсгал." data-kz="Түрлі-түсті көшелер, әдемі сәулет, күн батуы және романтикалық атмосфера.">Өнгөлөг гудамж, үзэсгэлэнт архитектур, оройн нар жаргалт агшин болон романтик уур амьсгал.</p>
+          </div>
+          <div class="journey-step">
+            <span>05</span>
+            <h3 data-mn="SPA, шоппинг, чөлөөт цаг" data-kz="SPA, шопинг, бос уақыт">SPA, шоппинг, чөлөөт цаг</h3>
+            <p data-mn="Өөртөө зориулах өдөр. SPA, массаж, шөнийн зах, жижиг бэлэг дурсгал болон амттай хоол." data-kz="Өзіңізге арналған күн: SPA, массаж, түнгі базар, шағын сыйлықтар мен дәмді ас.">Өөртөө зориулах өдөр. SPA, массаж, шөнийн зах, жижиг бэлэг дурсгал болон амттай хоол.</p>
+          </div>
+          <div class="journey-step">
+            <span>06</span>
+            <h3 data-mn="Буцах өдөр" data-kz="Қайту күні">Буцах өдөр</h3>
+            <p data-mn="Сайхан дурсамжаа цуглуулаад онгоцны буудал руу хүргэж өгнө. Дараагийн аяллаа аль хэдийн төлөвлөж эхэлнэ." data-kz="Жақсы естеліктермен әуежайға шығарып саламыз. Келесі сапар туралы ойлай бастайсыз.">Сайхан дурсамжаа цуглуулаад онгоцны буудал руу хүргэж өгнө. Дараагийн аяллаа аль хэдийн төлөвлөж эхэлнэ.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="why" class="section soft-section">
-      <div class="container feature-layout">
-        <div class="section-heading left">
-          <span class="eyebrow" data-mn="БИДНИЙ ДАВУУ ТАЛ" data-kz="БІЗДІҢ АРТЫҚШЫЛЫҚ">БИДНИЙ ДАВУУ ТАЛ</span>
-          <h2 data-mn="Та аялалдаа анхаар. Зохион байгуулалтыг бид хариуцна." data-kz="Сіз демалыңыз. Ұйымдастыруды бізге қалдырыңыз.">Та аялалдаа анхаар. Зохион байгуулалтыг бид хариуцна.</h2>
-        </div>
-        <div class="feature-grid">
-          <div class="feature"><span>01</span><h3 data-mn="Танд тохирсон маршрут" data-kz="Сізге сай маршрут">Танд тохирсон маршрут</h3><p data-mn="Хэд хоног, ямар төсөв, юу үзэх хүсэлтэйгээ хэлэхэд бид тохируулна." data-kz="Қанша күн, қандай бюджет және қай жерлерді көргіңіз келетінін айтсаңыз жеткілікті.">Хэд хоног, ямар төсөв, юу үзэх хүсэлтэйгээ хэлэхэд бид тохируулна.</p></div>
-          <div class="feature"><span>02</span><h3 data-mn="Тосолт ба үдэлт" data-kz="Күтіп алу және шығарып салу">Тосолт ба үдэлт</h3><p data-mn="Вьетнамд очсоноос буцах хүртэл шилжилтийг ойлгомжтой, тайван байлгана." data-kz="Вьетнамға келген сәттен қайтқанға дейінгі трансферді түсінікті әрі жайлы ұйымдастырамыз.">Вьетнамд очсоноос буцах хүртэл шилжилтийг ойлгомжтой, тайван байлгана.</p></div>
-          <div class="feature"><span>03</span><h3 data-mn="Уян хатан сонголт" data-kz="Икемді таңдау">Уян хатан сонголт</h3><p data-mn="Найз нөхөд, гэр бүл, ахмад аялагчдад өөр өөр хэмнэлтэй хөтөлбөр санал болгоно." data-kz="Достарға, отбасыларға және үлкен кісілерге бөлек қарқындағы бағдарлама ұсынамыз.">Найз нөхөд, гэр бүл, ахмад аялагчдад өөр өөр хэмнэлтэй хөтөлбөр санал болгоно.</p></div>
-          <div class="feature"><span>04</span><h3 data-mn="Нэг цэгийн үйлчилгээ" data-kz="Бір жерден қызмет">Нэг цэгийн үйлчилгээ</h3><p data-mn="Нислэг, буудал, дотоод шилжилт, аяллын хөтөлбөрийг нэг дор төлөвлөх боломжтой." data-kz="Ұшу, қонақүй, ішкі трансфер және саяхат бағдарламасын бір жерден жоспарлауға болады.">Нислэг, буудал, дотоод шилжилт, аяллын хөтөлбөрийг нэг дор төлөвлөх боломжтой.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="custom" class="section container">
-      <div class="custom-card">
+    <section class="section alt-section">
+      <div class="container cta-banner">
         <div>
-          <span class="eyebrow light" data-mn="ТАНЫ АЯЛАЛ — ТАНЫ СОНГОЛТ" data-kz="СІЗДІҢ САЯХАТ — СІЗДІҢ ТАҢДАУ">ТАНЫ АЯЛАЛ — ТАНЫ СОНГОЛТ</span>
-          <h2 data-mn="Хэд хоног аялах вэ? Ямар төсөвтэй вэ? Юу үзмээр байна?" data-kz="Қанша күн саяхаттағыңыз келеді? Қандай бюджет? Қай жерлерді көргіңіз келеді?">Хэд хоног аялах вэ? Ямар төсөвтэй вэ? Юу үзмээр байна?</h2>
-          <p data-mn="Таны хүсэл, төсөвт таарсан хувийн аяллын чиглэл гаргаж, тохиромжтой хөтөлбөр санал болгоно." data-kz="Қалауыңыз бен бюджетіңізге сәйкес жеке саяхат бағытын әзірлеп, қолайлы бағдарлама ұсынамыз.">Таны хүсэл, төсөвт таарсан хувийн аяллын чиглэл гаргаж, тохиромжтой хөтөлбөр санал болгоно.</p>
+          <span class="eyebrow" data-mn="ХУВИЙН ЗАХИАЛГА" data-kz="ЖЕКЕ ТАПСЫРЫС">ХУВИЙН ЗАХИАЛГА</span>
+          <h2 data-mn="Та аяллаа өөрийн хүсэл, төсөвт тааруулж хийлгэхийг хүсэж байна уу?" data-kz="Сапарыңызды өз қалауыңыз бен бюджетіңізге сай жасағыңыз келе ме?">Та аяллаа өөрийн хүсэл, төсөвт тааруулж хийлгэхийг хүсэж байна уу?</h2>
+          <p data-mn="Гэр бүл, найз нөхөд, ээжүүд, жижиг групп гээд таны хэрэгцээнд тохирсон маршрутыг тусад нь гаргаж өгнө." data-kz="Отбасыға, достарға, аналарға немесе шағын топқа арналған жеке маршрутты бөлек дайындаймыз.">Гэр бүл, найз нөхөд, ээжүүд, жижиг групп гээд таны хэрэгцээнд тохирсон маршрутыг тусад нь гаргаж өгнө.</p>
         </div>
-        <a class="btn btn-white" href="#contact" data-mn="Холбогдох" data-kz="Хабарласу">Холбогдох</a>
+        <a class="btn btn-primary" href="mailto:ulgii.vietnam@gmail.com">ulgii.vietnam@gmail.com</a>
       </div>
     </section>
 
-    <section id="contact" class="section container contact-section">
-      <div class="section-heading left">
-        <span class="eyebrow" data-mn="ХОЛБОО БАРИХ" data-kz="БАЙЛАНЫС">ХОЛБОО БАРИХ</span>
-        <h2 data-mn="Мөрөөдлийн аяллаа хамт төлөвлөе" data-kz="Армандаған саяхатты бірге жоспарлайық">Мөрөөдлийн аяллаа хамт төлөвлөе</h2>
-        <p data-mn="Facebook, Messenger эсвэл утсаар холбогдоорой. Холбоо барих мэдээллээ энд нэмэхэд бэлэн." data-kz="Facebook, Messenger немесе телефон арқылы хабарласыңыз. Байланыс деректеріңізді осы жерге қосуға дайын.">Facebook, Messenger эсвэл утсаар холбогдоорой. Холбоо барих мэдээллээ энд нэмэхэд бэлэн.</p>
-      </div>
-      <div class="contact-boxes">
-        <div class="contact-box"><span>f</span><strong>Facebook</strong><small data-mn="Хуудасны линк нэмэх" data-kz="Парақша сілтемесін қосу">Хуудасны линк нэмэх</small></div>
-        <div class="contact-box"><span>✆</span><strong data-mn="Утас" data-kz="Телефон">Утас</strong><small>+976 ____ ____</small></div>
-        <div class="contact-box"><span>✉</span><strong>Email</strong><small>hello@example.com</small></div>
+    <section id="contact" class="section">
+      <div class="container contact-wrap">
+        <div class="section-heading left">
+          <span class="eyebrow" data-mn="ХОЛБОО БАРИХ" data-kz="БАЙЛАНЫС">ХОЛБОО БАРИХ</span>
+          <h2 data-mn="Фукуокын аяллаа өнөөдрөөс төлөвлөе" data-kz="Фукуок сапарыңызды бүгіннен бастап жоспарлайық">Фукуокын аяллаа өнөөдрөөс төлөвлөе</h2>
+          <p data-mn="Дэлгэрэнгүй мэдээлэл, бүртгэл, үнэ, аяллын асуултаа Facebook эсвэл утсаар асуугаарай." data-kz="Толық ақпарат, тіркелу, баға және бағдарлама бойынша сұрақтарыңызды Facebook не телефон арқылы жіберіңіз.">Дэлгэрэнгүй мэдээлэл, бүртгэл, үнэ, аяллын асуултаа Facebook эсвэл утсаар асуугаарай.</p>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="https://www.facebook.com/profile.php?id=61594274105420" target="_blank" rel="noopener">
+            <span>f</span>
+            <strong>Facebook</strong>
+            <small>@Ulgii Vietnam</small>
+          </a>
+          <a class="contact-card" href="tel:+97699908222">
+            <span>✆</span>
+            <strong data-mn="Утас" data-kz="Телефон">Утас</strong>
+            <small>99908222</small>
+          </a>
+          <a class="contact-card" href="mailto:ulgii.vietnam@gmail.com">
+            <span>✉</span>
+            <strong>Email</strong>
+            <small>ulgii.vietnam@gmail.com</small>
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
+  <div class="floating-actions">
+    <a class="float-btn messenger" href="https://www.facebook.com/profile.php?id=61594274105420" target="_blank" rel="noopener" aria-label="Facebook Messenger">f</a>
+    <a class="float-btn phone" href="tel:+97699908222" aria-label="Call 99908222">✆</a>
+  </div>
+
+  <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="brand footer-brand"><span class="brand-mark">UV</span><span><strong>Өлгий–Вьетнам</strong><small>Аялал & амралт</small></span></div>
+      <div class="brand footer-brand">
+        <span class="brand-mark">UV</span>
+        <span><strong>Өлгий–Вьетнам</strong><small>Phu Quoc • Vietnam • Girls Trip</small></span>
+      </div>
       <p>© <span id="year"></span> <span data-mn="Бүх эрх хуулиар хамгаалагдсан." data-kz="Барлық құқық қорғалған.">Бүх эрх хуулиар хамгаалагдсан.</span></p>
     </div>
   </footer>
